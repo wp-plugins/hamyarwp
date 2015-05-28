@@ -26,5 +26,9 @@ http://hamyarwp.com
 
 == Changelog ==
 
-= 0.1 =
+= 1.0 =
 * نمایش آخرین اخبار همیار وردپرس در بخش مدیریت
+
+== Screenshots ==
+
+1. Screenshot 1
