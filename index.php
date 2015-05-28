@@ -26,11 +26,11 @@
 		}
 	}
 	
-	function hamyarwp_widget()
+	function add_dashboard_widgets()
 	{
-		wp_add_dashboard_widget('hamyarwp-widget', 'آخرین اخبار همیار وردپرس', 'hamyarwp_feed');
+		wp_add_dashboard_widget('dashboard_widget', 'آخرین اخبار همیار وردپرس', 'hamyarwp_feed');
 	}
 	
-	add_action('wp_dashboard_setup', 'hamyarwp_feed');
+	add_action('wp_dashboard_setup', 'add_dashboard_widgets');
 
 ?>
