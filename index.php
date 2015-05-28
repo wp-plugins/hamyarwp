@@ -94,7 +94,7 @@
 		{
 			$wp_admin_bar->add_menu(array(
 				'id'		=>	'hamyarwp',
-				'title'		=>	'<img src="'.plugin_dir_url(__FILE__).'/logo.png" style="width: 18px;height: 18px;margin: 6px 0 0 0;" />',
+				'title'		=>	'<img src="'.plugin_dir_url(__FILE__).'/logo.png" style="width: 18px;height: 18px;margin: 7px 5px 0 5px;" />',
 				'href'		=>	'http://hamyarwp.com/',
 				'target'		=>	'_blank',
 			));
