@@ -83,7 +83,7 @@
 		$wp_admin_bar->remove_menu('documentation');
 		$wp_admin_bar->remove_menu('support-forums');
 		$wp_admin_bar->remove_menu('feedback');
-		$wp_admin_bar->remove_menu('view-site');
+		//$wp_admin_bar->remove_menu('view-site');
 	}
 	add_action('wp_before_admin_bar_render', 'remove_menu');
 	
@@ -102,6 +102,10 @@
 			return false;
 		}
 	}
-	add_action('admin_bar_menu', 'hamyarwp_menu');
+	
+	if ( is_admin() ) 
+	{
+		add_action('admin_bar_menu', 'hamyarwp_menu');
+	}
 
 ?>
