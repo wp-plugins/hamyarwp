@@ -1,7 +1,7 @@
  === HamyarWP ===
 Contributors: nipoto
 Donate link: http://ideyeno.ir
-Tags: hamyar, hamyar wordpress, wordpress, همیار, وردپرس, همیار وردپرس
+Tags: hamyar, hamyar wordpress, wordpress, همیار, وردپرس, همیار وردپرس, فارسی, پارسی
 Requires at least: 3.0.1
 Tested up to: 4.2.2
 Stable tag: 1.0.5
@@ -14,6 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 = همیار وردپرس =
 افزونه‌ی همیار وردپرس برای وردپرس پارسی ...
+http://hamyarwp.com
 
 == Installation ==
 
